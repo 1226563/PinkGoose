@@ -30,7 +30,7 @@ a {
     margin-top: 115px;
 }
 
-.goosestart {
+.goose-start {
     width: 526px;
     font-family: "Lato", sans-serif;
     font-weight: bold;
@@ -45,7 +45,7 @@ body {
     margin: 0;
 }
 
-.home {
+.main-nav {
     display: flex;
     gap: 44px;
     font-family: "montserrat", sans-serif;
@@ -84,7 +84,7 @@ body {
     line-height: 46px;
 }
 
-.startbutton {
+.start-button {
     font-family: "montserrat", sans-serif;
     font-weight: bold;
     font-size: 20px;
@@ -119,7 +119,7 @@ body {
     font-size: 54px;
 }
 
-.dao-1 {
+.dao-button {
     display: flex;
     font-family: "montserrat", sans-serif;
     font-size: 20px;
@@ -154,15 +154,6 @@ body {
     background-color: #182632;
     padding: 20px;
     border-radius: 100px;
-}
-
-.dao-2 {
-    display: flex;
-    font-family: "montserrat", sans-serif;
-    font-size: 20px;
-    flex-direction: row;
-    gap: 20px;
-    margin-top: 40px;
 }
 
 .impact {
@@ -240,7 +231,7 @@ body {
     margin-top: 150px;
 }
 
-.worksicons {
+.works-icons {
     display: flex;
     flex-direction: row;
     gap: 30px;
@@ -259,7 +250,7 @@ body {
     font-size: 22px;
 }
 
-.ethereum {
+.logo-box {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -271,7 +262,7 @@ body {
     border-radius: 40px;
 }
 
-.people {
+.person {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -646,12 +637,12 @@ button {
     border-radius: 20px;
 }
 
-.ethereum img {
+.logo-box img {
     max-width: 100%;
     max-height: 100%;
 }
 
-.people img {
+.person img {
     width: 160px;
     height: 160px;
     border-radius: 40px;
@@ -838,11 +829,6 @@ button {
     font-weight: bold;
 }
 
-.dao-1,
-.dao-2 {
-    justify-content: center;
-}
-
 .press-cards,
 .podcast-cards {
     display: flex;
@@ -862,9 +848,3 @@ button {
     color: #FFC24C;
 }
 
-/* Links in het menu */
-.home {
-    a {
-        color: white;
-    }
-}
